@@ -4,7 +4,7 @@ from os import chdir
 from logging import Logger
 
 """ State and Examine Given Working Directory """
-WORKING_DIR = 'D:\Youtube DL Videos'
+WORKING_DIR = '.'
 
 """ Change Working Directory """
 chdir(WORKING_DIR)
