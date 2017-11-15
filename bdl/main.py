@@ -23,7 +23,7 @@ def parse_arguments():
 def download_url(url: str):
     """ Create subprocess of Youtube-DL command """
     command = YOUTUBE_DL_COMMAND + ' ' + url
-    run(command)
+    run(command, shell=True)
 
 
 def main():
