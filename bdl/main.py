@@ -4,7 +4,7 @@ from os import chdir
 from logging import Logger
 
 """ State and Examine Given Working Directory """
-WORKING_DIR = '.'
+WORKING_DIR = r'.'
 
 """ Change Working Directory """
 chdir(WORKING_DIR)
