@@ -11,4 +11,5 @@ setup(name='Best Quality Youtube-dl',
           'console_scripts':
               ['bdl = bdl.main:main']  # bdl = best download
       },
+      install_requires=['youtube-dl'],
       )
